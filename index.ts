@@ -9,7 +9,7 @@ const qrcode = require('qrcode-terminal');
 async function main () {
 
     const wallet = Address.parse(
-        "kQBTgc8YNr42Ee2jV6hkvLT0KCwP4depH9VPQ8ab58fj29dL"
+        ""
     );
     const collection = Address.parse(
         "EQDk8N7xM5D669LC2YACrseBJtDyFqwtSPCNhRWXU7kjEptX"
@@ -102,14 +102,3 @@ async function main () {
 }
 
 main()
-
-// complexity <BN: 1000000000000000000000000000000000000000000000000000000000000000>
-// last_success 1696215333
-// seed <BN: 64fe453ebf7343287202ad910a52e2dc>
-// target_delta 30
-// min_cpl 171
-// max_cpl 252
-
-// msg_hash:  4306153132390803220832034610408495899005365427674229961909234477132577852824
-// pow_complexity:  7237005577332262213973186563042994240829374041602535252466099000494570602496
-// msg_hash < pow_complexity:  true
